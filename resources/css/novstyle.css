@@ -56,17 +56,18 @@ h3 {
 
 header {
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/ibrahim-boran-dmOFwtOIhJA-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(img/alexander-naglestad-xzKtOI1Cnxo-unsplash.jpg);
     background-size: cover;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
 .nov-text-box {
-    padding: 2.9% 0;
-    background-color: rgba(124, 124, 124, 0.637);
-    width: 55%;
+    padding: 0.9% 0;
+    background-color: rgba(124, 124, 124, 0.8);
+    width: 47%;
     float: left;
     position: absolute;
     margin: 3.9% auto;
@@ -142,10 +143,6 @@ header {
     margin-right: 1rem;
 }
 
-.main-nav li:last-child {
-    margin-left: 35px;
-}
-
 .main-nav li {
     display: inline-block;
     margin-left: 40px;
@@ -175,12 +172,12 @@ header {
 
 .main-nav .testor:link,
 .main-nav .testor:visited {
-    color: rgb(92, 10, 21);
+    color: rgb(206, 34, 57);
 }
 
 .main-nav .testor:hover,
 .main-nav .testor:active {
-    color: rgb(92, 10, 21);
+    color: rgb(206, 34, 57);
     border-bottom: none;
 }
 
