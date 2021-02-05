@@ -1,0 +1,228 @@
+/*  rgb(114, 14, 28); */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #fff;
+    font-family: 'Kalam', cursive;
+    font-weight: 300;
+    font-size: 18px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 250%;
+    font-weight: 400;
+    color: rgb(114, 14, 28);
+}
+
+h2 {
+    font-weight: 300;
+    text-align: center;
+}
+
+h2:after {
+    display: block;
+    content: ".";
+    height: 2px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(114, 14, 28);
+    ;
+    margin-top: 10px;
+    margin: 3% auto;
+}
+
+h3 {
+    font-weight: 300;
+}
+
+h2,
+h3 {
+    color: rgb(175, 25, 45);
+    ;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+/* HEADER */
+
+header {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/ibrahim-boran-dmOFwtOIhJA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.nov-text-box {
+    padding: 2.9% 0;
+    background-color: rgba(124, 124, 124, 0.637);
+    width: 55%;
+    float: left;
+    position: absolute;
+    margin: 3.9% auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.nov-text-box .welcome {
+    color: #fff;
+}
+
+.novel {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(114, 14, 28);
+}
+
+.nov-text-box span {
+    font-size: 50%;
+    font-family: serif;
+}
+
+
+/* buttons */
+
+.nov-text-box a.btn {
+    margin-top: 20%;
+}
+
+.nov-text-box a:link,
+.nov-text-box a:visited {
+    text-decoration: none;
+    padding-bottom: 2px;
+    background-color: rgb(114, 14, 28);
+    border: 1px solid rgb(114, 14, 28);
+    color: white;
+    transition: border 0.2s, color 0.2s;
+}
+
+.nov-text-box .btn:link,
+.nov-text-box .btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.nov-text-box .btn:hover,
+.nov-text-box .btn:active {
+    background-color: rgb(126, 16, 30);
+    border: 1px solid rgb(126, 16, 30);
+    color: white;
+}
+
+
+/* NAVIGATION */
+
+.nav {
+    background-color: rgba(85, 85, 85, 0.637);
+    box-shadow: 2px 2px 5px rgba(133, 133, 134, 0.7);
+    height: auto;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 20px 0;
+    margin-right: 1rem;
+}
+
+.main-nav li:last-child {
+    margin-left: 35px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid rgb(114, 14, 28);
+}
+
+.nov-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav .testor:link,
+.main-nav .testor:visited {
+    color: rgb(92, 10, 21);
+}
+
+.main-nav .testor:hover,
+.main-nav .testor:active {
+    color: rgb(92, 10, 21);
+    border-bottom: none;
+}
+
+
+/* logo */
+
+.logo {
+    height: 60px;
+    width: auto;
+    border-radius: 50%;
+}
+
+
+/* section about */
+
+.about-us {
+    color: rgb(48, 48, 48);
+    padding: 5% 0;
+    width: 70%;
+    margin-left: 15%;
+    line-height: 1.6;
+}
+
+.section-about {
+    padding: 5% 0;
+    background-image: linear-gradient(rgba(1, 1, 24, 0.9), rgba(36, 36, 37, 0.9));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.stuff {
+    display: flex;
+    width: 100%;
+}
+
+.stuff .box {
+    width: 20%;
+    margin-left: 4%;
+}
+
+.box img {
+    width: 100%;
+    height: 170px;
+}
