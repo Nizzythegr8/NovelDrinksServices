@@ -67,6 +67,7 @@ header {
 .nov-text-box {
     padding: 0.9% 0;
     background-color: rgba(124, 124, 124, 0.8);
+    border-radius: 1%;
     width: 47%;
     float: left;
     position: absolute;
@@ -104,6 +105,7 @@ header {
     text-decoration: none;
     padding-bottom: 2px;
     background-color: rgb(114, 14, 28);
+    border-radius: 5%;
     border: 1px solid rgb(114, 14, 28);
     color: white;
     transition: border 0.2s, color 0.2s;
@@ -115,13 +117,13 @@ header {
     padding: 10px 30px;
     font-weight: 300;
     text-decoration: none;
-    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.5s, 0.5s, color 1.0s;
 }
 
 .nov-text-box .btn:hover,
 .nov-text-box .btn:active {
-    background-color: rgb(126, 16, 30);
-    border: 1px solid rgb(126, 16, 30);
+    background-color: rgb(158, 25, 43);
+    border: 1px solid rgb(158, 25, 43);
     color: white;
 }
 
@@ -130,7 +132,6 @@ header {
 
 .nav {
     background-color: rgba(85, 85, 85, 0.637);
-    box-shadow: 2px 2px 5px rgba(133, 133, 134, 0.7);
     height: auto;
 }
 
@@ -161,7 +162,7 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid rgb(114, 14, 28);
+    border-bottom: 2px solid rgb(206, 34, 57);
 }
 
 .nov-nav {
@@ -172,13 +173,29 @@ header {
 
 .main-nav .testor:link,
 .main-nav .testor:visited {
-    color: rgb(206, 34, 57);
+    color: #fff;
 }
 
 .main-nav .testor:hover,
 .main-nav .testor:active {
-    color: rgb(206, 34, 57);
-    border-bottom: none;
+    color: #fff;
+}
+
+.main-nav .reserve:link,
+.main-nav .reserve:visited {
+    background-color: rgba(114, 14, 27, 0.788);
+    border-radius: 5%;
+    border: 1px solid rgba(114, 14, 27, 0.788);
+    padding: 10% 5%;
+    color: white;
+    transition: background-color 0.5s, border 0.5s, color 1.0s;
+}
+
+.main-nav .reserve:hover,
+.main-nav .reserve:active {
+    background-color: rgb(158, 25, 43);
+    border: 1px solid rgb(158, 25, 43);
+    color: white;
 }
 
 
@@ -201,6 +218,10 @@ header {
     line-height: 1.6;
 }
 
+.about-us p {
+    text-align: center;
+}
+
 .section-about {
     padding: 5% 0;
     background-image: linear-gradient(rgba(1, 1, 24, 0.9), rgba(36, 36, 37, 0.9));
@@ -219,7 +240,116 @@ header {
     margin-left: 4%;
 }
 
+.stuff .box p {
+    text-align: center;
+}
+
 .box img {
     width: 100%;
     height: 170px;
+}
+
+
+/* PORTFOLIO */
+
+.portfolio {
+    background-image: linear-gradient(rgba(1, 1, 24, 0.9), rgba(36, 36, 37, 0.9));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 8% 0;
+    padding: 5% 0;
+}
+
+
+/* Position the image container (needed to position the left and right arrows) */
+
+.container {
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.container img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+.container p {
+    text-align: center;
+    margin: 3% 0;
+}
+
+
+/* Hide the images by default */
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    height: 75vh;
+    width: 50%;
+    margin-left: 25%;
+}
+
+
+/* Add a pointer when hovering over the thumbnail images */
+
+.cursor {
+    cursor: pointer;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    transition: background-color 0.5s;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Container for image text */
+
+.caption-container {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }

@@ -1,56 +1,123 @@
-            /* Big tablet to 1200px */
-            
-            @media only screen and (max-width: 1200px) {}
-            /* Small tablets to big tablets (from 768px to 1023px) */
-            
-            @media only screen and (max-width: 1023px) {}
-            /* Small phones to small tablets (from 481px to 767px) */
-            
-            @media only screen and (max-width: 767px) {}
-            /* Small phones (from 0 to 480px)  */
-            
-            @media only screen and (max-width: 480px) {
-                /* RUC */
-                html {
-                    font-size: 14px;
-                }
-                h1 {
-                    font-size: 200%;
-                }
-                /* HEADER */
-                header {
-                    height: 90vh;
-                }
-                .nov-text-box {
-                    padding: 12.2% 0;
-                    width: 75%;
-                }
-                .nov-text-box .welcome {
-                    font-weight: 100;
-                }
-                /* NAV */
-                .logo {
-                    height: 30px;
-                }
-                .main-nav {
-                    padding: 10px 0;
-                    margin-right: 2rem;
-                }
-                .main-nav li {
-                    margin-left: 20px;
-                    font-size: 70%;
-                    font-weight: 400;
-                }
-                /* ABOUT US */
-                .about-us {
-                    width: 70%;
-                    margin-left: 15%;
-                }
-                .stuff {
-                    display: block;
-                }
-                .stuff .box {
-                    width: 80%;
-                    margin-left: 10%;
-                }
-            }
+                        /* Big tablet to 1200px */
+                        
+                        @media only screen and (max-width: 1200px) {
+                            .nov-text-box {
+                                padding: 8.9% 3px;
+                                width: 60%;
+                            }
+                            /* PORTFOLIO */
+                            .mySlides img {
+                                height: 60vh;
+                                width: 70%;
+                                margin-left: 15%;
+                            }
+                            .caption-container {
+                                width: 70%;
+                                margin-left: 15%;
+                            }
+                        }
+                        /* Small tablets to big tablets (from 768px to 1023px) */
+                        
+                        @media only screen and (max-width: 1023px) {
+                            /* RUC */
+                            html {
+                                font-size: 16px;
+                            }
+                            /* ABOUT US */
+                            .box img {
+                                height: 145px;
+                            }
+                            /* PORTFOLIO */
+                            .mySlides img {
+                                height: 60vh;
+                                width: 70%;
+                                margin-left: 15%;
+                            }
+                            .caption-container {
+                                width: 70%;
+                                margin-left: 15%;
+                            }
+                        }
+                        /* Small phones to small tablets (from 481px to 767px) */
+                        
+                        @media only screen and (max-width: 767px) {
+                            /* RUC */
+                            html {
+                                font-size: 14px;
+                            }
+                            /* NAV */
+                            .logo {
+                                height: 44px;
+                            }
+                            /* ABOUT US */
+                            .stuff {
+                                display: block;
+                            }
+                            .stuff .box {
+                                width: 60%;
+                                margin-left: 20%;
+                                margin-bottom: 2%;
+                            }
+                        }
+                        /* Small phones (from 0 to 480px)  */
+                        
+                        @media only screen and (max-width: 480px) {
+                            /* RUC */
+                            html {
+                                font-size: 14px;
+                            }
+                            h1 {
+                                font-size: 200%;
+                            }
+                            /* HEADER */
+                            header {
+                                height: 90vh;
+                            }
+                            .nov-text-box {
+                                padding: 12.2% 0;
+                                width: 75%;
+                            }
+                            .nov-text-box .welcome {
+                                font-weight: 100;
+                            }
+                            /* NAV */
+                            .logo {
+                                height: 30px;
+                            }
+                            .main-nav {
+                                padding: 10px 0;
+                                margin-right: 2rem;
+                            }
+                            .main-nav li {
+                                margin-left: 20px;
+                                font-size: 70%;
+                                font-weight: 400;
+                            }
+                            /* ABOUT US */
+                            .about-us {
+                                width: 70%;
+                                margin-left: 15%;
+                            }
+                            .stuff {
+                                display: block;
+                            }
+                            .stuff .box {
+                                width: 80%;
+                                margin-left: 10%;
+                            }
+                            /* PORTFOLIO */
+                            .portfolio {
+                                margin: 15% 0;
+                                padding: 10% 0;
+                            }
+                            .mySlides img {
+                                height: 41vh;
+                                width: 90%;
+                                margin-left: 5%;
+                                margin: 5%;
+                            }
+                            .caption-container {
+                                width: 90%;
+                                margin-left: 5%;
+                            }
+                        }
