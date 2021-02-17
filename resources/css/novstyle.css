@@ -46,7 +46,6 @@ h3 {
 h2,
 h3 {
     color: rgb(175, 25, 45);
-    ;
     text-transform: uppercase;
     text-align: center;
 }
@@ -58,7 +57,6 @@ header {
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(img/alexander-naglestad-xzKtOI1Cnxo-unsplash.jpg);
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
@@ -131,8 +129,13 @@ header {
 /* NAVIGATION */
 
 .nav {
-    background-color: rgba(85, 85, 85, 0.637);
+    background-color: rgba(0, 0, 0, 0.9);
     height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
 }
 
 .main-nav {
@@ -253,12 +256,9 @@ header {
 /* PORTFOLIO */
 
 .portfolio {
-    background-image: linear-gradient(rgba(1, 1, 24, 0.9), rgba(36, 36, 37, 0.9));
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 8% 0;
+    margin: 4% 0 5% 0;
     padding: 5% 0;
+    color: #555555;
 }
 
 
@@ -266,8 +266,8 @@ header {
 
 .container {
     position: relative;
-    width: 90%;
-    margin-left: 5%;
+    width: 70%;
+    margin-left: 15%;
 }
 
 .container img {
@@ -283,73 +283,63 @@ header {
 
 /* Hide the images by default */
 
-.mySlides {
-    display: none;
-}
-
 .mySlides img {
-    height: 75vh;
-    width: 50%;
-    margin-left: 25%;
+    height: 80vh;
+    width: 30%;
+    margin-left: 10%;
+}
+
+.IG link {
+    font-size: 150%;
+    text-decoration: none;
 }
 
 
-/* Add a pointer when hovering over the thumbnail images */
+/* RESERVATIONS */
 
-.cursor {
-    cursor: pointer;
+.reservation {
+    margin-top: 5%;
+    padding-top: 5%;
 }
 
-
-/* Next & previous buttons */
-
-.prev,
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-    transition: background-color 0.5s;
+.reserve-box {
+    display: flex;
+    width: 100%;
 }
 
-
-/* Position the "next button" to the right */
-
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
+.r-box {
+    width: 25%;
+    margin-left: 5%;
+    border: 1px solid transparent;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px 2px #efefef;
+    background-color: rgb(248, 248, 248);
 }
 
-
-/* On hover, add a black background color with a little bit see-through */
-
-.prev:hover,
-.next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-
-/* Container for image text */
-
-.caption-container {
-    width: 50%;
-    margin-left: 25%;
+.r-box p {
     text-align: center;
-    background-color: #222;
-    padding: 2px 16px;
-    color: white;
+    color: #555555;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.r-icon {
+    font-size: 50px;
+    font-weight: 200;
+    text-align: center;
+    color: rgb(153, 18, 36);
+    display: block;
+    background-color: rgba(245, 245, 245, 0.9);
+    height: 70px;
+    width: 70px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 1px solid #f0f0f0;
+    transition: background-color 1.0s, border 0.5s, color 0.5s, box-shadow 0.5s;
+}
+
+.r-box i:hover {
+    background-color: #ffffffe5;
+    border: 1px solid transparent;
+    color: rgb(114, 14, 28);
+    box-shadow: 2px 4px 10px 7px #efefef;
+    cursor: pointer;
 }

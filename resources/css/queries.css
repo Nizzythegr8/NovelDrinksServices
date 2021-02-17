@@ -1,10 +1,6 @@
                         /* Big tablet to 1200px */
                         
                         @media only screen and (max-width: 1200px) {
-                            .nov-text-box {
-                                padding: 8.9% 3px;
-                                width: 60%;
-                            }
                             /* PORTFOLIO */
                             .mySlides img {
                                 height: 60vh;
@@ -119,5 +115,19 @@
                             .caption-container {
                                 width: 90%;
                                 margin-left: 5%;
+                            }
+                            /* RESERVATION */
+                            .reserve-box {
+                                display: block;
+                            }
+                            .r-box {
+                                width: 80%;
+                                padding: 6% 0;
+                                margin: 10%;
+                            }
+                            .r-icon {
+                                font-size: 30px;
+                                height: 42px;
+                                width: 42px;
                             }
                         }
