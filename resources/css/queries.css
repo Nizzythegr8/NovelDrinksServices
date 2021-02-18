@@ -41,7 +41,18 @@
                             html {
                                 font-size: 14px;
                             }
+                            h2 {
+                                font-size: 150%;
+                            }
+                            .nov-text-box .welcome {
+                                font-weight: 200;
+                            }
                             /* NAV */
+                            .main-nav li {
+                                margin-left: 20px;
+                                font-size: 90%;
+                                font-weight: 400;
+                            }
                             .logo {
                                 height: 44px;
                             }
@@ -64,6 +75,9 @@
                             }
                             h1 {
                                 font-size: 200%;
+                            }
+                            h2 {
+                                font-size: 150%;
                             }
                             /* HEADER */
                             header {
