@@ -15,4 +15,21 @@ $(document).ready(function() {
         offset: '60px'
     }, 1500);
 
+
+    /*MOBILE NAV*/
+    $('.mobile-icon').click(function() {
+        var nav = $('.main-nav li')
+        var icon = $('.main-nav i')
+
+        nav.slideToggle(200);
+        if (icon.hasClass('.fas fa-bars')) {
+            icon.addClass('.fas fa-times');
+            icon.removeClass('.fas fa-bars');
+
+        } else {
+            icon.addClass('.fas fa-bars');
+            icon.removeClass('.fas fa-times');
+        }
+    });
+
 });

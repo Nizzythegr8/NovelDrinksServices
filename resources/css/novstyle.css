@@ -187,21 +187,17 @@ header {
     color: #fff;
 }
 
-.main-nav .reserve:link,
-.main-nav .reserve:visited {
-    background-color: rgba(114, 14, 27, 0.788);
-    border-radius: 5%;
-    border: 1px solid transparent;
-    padding: 10% 5%;
-    color: white;
-    transition: background-color 0.5s, border 0.5s, color 1.0s;
-}
 
-.main-nav .reserve:hover,
-.main-nav .reserve:active {
-    background-color: #fff;
-    border: 1px solid rgb(158, 25, 43);
-    color: #9e192b;
+/* MOBILE NAV ICON */
+
+.mobile-icon {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 180%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
 }
 
 
@@ -211,8 +207,8 @@ header {
     position: fixed;
     top: 0%;
     left: 0%;
-    width: 100%;
-    background-color: rgba(114, 14, 27);
+    width: 35%;
+    background-color: rgba(114, 14, 27, 0.9);
     z-index: 9999;
 }
 

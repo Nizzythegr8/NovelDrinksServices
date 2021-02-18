@@ -44,17 +44,43 @@
                             h2 {
                                 font-size: 150%;
                             }
-                            .nov-text-box .welcome {
-                                font-weight: 200;
+                            .nov-text-box {
+                                width: 75%;
                             }
-                            /* NAV */
-                            .main-nav li {
+                            .nov-text-box .welcome {
+                                font-weight: 300;
+                            }
+                            /* MOBILE NAV */
+                            .nov-nav {
+                                display: flex;
+                                justify-content: space-between;
+                                padding: 1% 0;
+                                width: 20%;
+                            }
+                            .mobile-icon {
+                                display: flex;
                                 margin-left: 20px;
-                                font-size: 90%;
-                                font-weight: 400;
+                                top: 0;
+                                left: 0;
+                            }
+                            .main-nav {
+                                display: block;
+                                justify-content: flex-start;
+                            }
+                            .main-nav li {
+                                display: none;
+                                margin-top: 1px;
+                                margin-left: 10px;
+                            }
+                            .main-nav li a:link,
+                            .main-nav li a:visited {
+                                display: block;
+                                border: 0;
+                                padding: 5px 0;
+                                font-size: 100%;
                             }
                             .logo {
-                                height: 44px;
+                                display: none;
                             }
                             /* ABOUT US */
                             .stuff {
@@ -88,7 +114,7 @@
                                 width: 75%;
                             }
                             .nov-text-box .welcome {
-                                font-weight: 200;
+                                font-weight: 300;
                             }
                             /* NAV */
                             .logo {
@@ -112,6 +138,10 @@
                                 display: block;
                             }
                             .stuff .box {
+                                width: 70%;
+                                margin-left: 15%;
+                            }
+                            .box img {
                                 width: 80%;
                                 margin-left: 10%;
                             }
