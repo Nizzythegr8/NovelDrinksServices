@@ -232,7 +232,7 @@ header {
     background-color: rgba(114, 14, 27, 0.788);
     border-radius: 5%;
     border: 1px solid rgba(114, 14, 27, 0.788);
-    padding: 10% 5%;
+    padding: 15px 5%;
     color: white;
     transition: background-color 0.5s, border 0.5s, color 1.0s;
 }
