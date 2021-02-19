@@ -21,7 +21,7 @@ $(document).ready(function() {
         var nav = $('.main-nav li')
         var icon = $('.special-icon i')
 
-        nav.slideToggle(400);
+        nav.slideToggle(200);
         if (icon.hasClass('fas fa-bars')) {
             icon.classList.add("fas fa-times");
             icon.classList.remove('fas fa-bars');

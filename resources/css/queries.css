@@ -54,7 +54,6 @@
                             .nov-nav {
                                 display: flex;
                                 justify-content: space-between;
-                                position: relative;
                                 padding: 0.1% 0;
                                 width: 100%;
                                 background-color: rgba(114, 14, 27);
@@ -72,9 +71,8 @@
                             .main-nav {
                                 display: block;
                                 justify-content: flex-start;
-                                position: relative;
                                 padding: 2px 0;
-                                width: 70%;
+                                width: 100%;
                                 background-color: rgba(114, 14, 27);
                                 z-index: 99999999999;
                             }
@@ -99,10 +97,7 @@
                                 border-top: 0.5px solid #ffd3d913;
                             }
                             .logo {
-                                display: block;
-                                position: absolute;
-                                top: 15px;
-                                right: 3px;
+                                display: none;
                             }
                             .sticky {
                                 display: none;
