@@ -19,17 +19,20 @@ $(document).ready(function() {
     /*MOBILE NAV*/
     $('.mobile-icon').click(function() {
         var nav = $('.main-nav li')
-        var icon = $('.main-nav i')
+        var icon = $('.special-icon i')
 
-        nav.slideToggle(200);
-        if (icon.hasClass('.fas fa-bars')) {
-            icon.addClass('.fas fa-times');
-            icon.removeClass('.fas fa-bars');
+        nav.slideToggle(400);
+        if (icon.hasClass('fas fa-bars')) {
+            icon.classList.add("fas fa-times");
+            icon.classList.remove('fas fa-bars');
 
         } else {
-            icon.addClass('.fas fa-bars');
-            icon.removeClass('.fas fa-times');
+            icon.classList.add('fas fa-bars');
+            icon.classList.remove('fas fa-times');
         }
     });
 
+    $('.mobile-icon').click(function() {
+        document.querySelector(".blurry-body").classList.add("blur")
+    })
 });
