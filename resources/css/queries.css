@@ -54,32 +54,52 @@
                             .nov-nav {
                                 display: flex;
                                 justify-content: space-between;
-                                padding: 1% 0;
-                                width: 20%;
+                                padding: 0.1% 0;
+                                width: 100%;
+                                background-color: rgba(114, 14, 27);
+                                z-index: 99999999999;
                             }
                             .mobile-icon {
-                                display: flex;
+                                display: flex !important;
                                 margin-left: 20px;
                                 top: 0;
                                 left: 0;
                             }
+                            .link-icon {
+                                display: inline-block !important;
+                            }
                             .main-nav {
                                 display: block;
                                 justify-content: flex-start;
+                                padding: 2px 0;
+                                width: 100%;
+                                background-color: rgba(114, 14, 27);
+                                z-index: 99999999999;
                             }
                             .main-nav li {
                                 display: none;
                                 margin-top: 1px;
-                                margin-left: 10px;
+                                padding-left: 20px;
+                                margin-left: 0;
+                                width: 100%;
+                                border-top: 0.2px solid #ffd3d902;
                             }
                             .main-nav li a:link,
                             .main-nav li a:visited {
                                 display: block;
                                 border: 0;
-                                padding: 5px 0;
+                                padding: 10px 0;
                                 font-size: 100%;
                             }
+                            .main-nav li a:hover,
+                            .main-nav li a:active {
+                                background-color: #941425;
+                                border-top: 0.5px solid #ffd3d913;
+                            }
                             .logo {
+                                display: none;
+                            }
+                            .sticky {
                                 display: none;
                             }
                             /* ABOUT US */
@@ -121,11 +141,11 @@
                                 height: 30px;
                             }
                             .main-nav {
-                                padding: 10px 0;
+                                padding: 0;
                                 margin-right: 2rem;
                             }
                             .main-nav li {
-                                margin-left: 20px;
+                                padding-left: 20px;
                                 font-size: 90%;
                                 font-weight: 400;
                             }

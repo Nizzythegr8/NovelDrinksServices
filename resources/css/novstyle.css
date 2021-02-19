@@ -57,7 +57,7 @@ h3 {
 
 header {
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url(img/alexander-naglestad-xzKtOI1Cnxo-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url(https://images.unsplash.com/photo-1580657274234-7339717f4541?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8Y2hhbXBhZ25lfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -66,7 +66,7 @@ header {
 
 .nov-text-box {
     padding: 0.9% 0;
-    background-color: rgba(124, 124, 124, 0.15);
+    background-color: rgba(124, 124, 124, 0.05);
     border-radius: 1%;
     width: 47%;
     float: left;
@@ -141,12 +141,16 @@ header {
     width: 100%;
 }
 
+.nov-nav {
+    width: 100%;
+}
+
 .main-nav {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
     list-style: none;
-    padding: 15px 0;
+    padding: 13px 0;
     margin-right: 1rem;
 }
 
@@ -175,6 +179,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .main-nav .testor:link,
@@ -197,7 +202,14 @@ header {
     font-size: 180%;
     color: #fff;
     cursor: pointer;
-    display: none;
+    display: none !important;
+}
+
+.link-icon {
+    margin-right: 8px;
+    font-size: 18px;
+    color: #fff;
+    display: none !important;
 }
 
 
@@ -207,8 +219,8 @@ header {
     position: fixed;
     top: 0%;
     left: 0%;
-    width: 35%;
-    background-color: rgba(114, 14, 27, 0.9);
+    width: 100%;
+    background-color: rgba(114, 14, 27);
     z-index: 9999;
 }
 
@@ -284,6 +296,11 @@ header {
 
 .stuff .box p {
     text-align: center;
+}
+
+.stuff .box h3 {
+    color: #fff;
+    font-weight: 400;
 }
 
 .box img {
