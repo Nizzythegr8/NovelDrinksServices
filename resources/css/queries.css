@@ -54,6 +54,7 @@
                             .nov-nav {
                                 display: flex;
                                 justify-content: space-between;
+                                position: relative;
                                 padding: 0.1% 0;
                                 width: 100%;
                                 background-color: rgba(114, 14, 27);
@@ -97,7 +98,12 @@
                                 border-top: 0.5px solid #ffd3d913;
                             }
                             .logo {
-                                display: none;
+                                display: block;
+                                position: absolute;
+                                border-radius: 35%;
+                                top: 15px;
+                                right: 10px;
+                                z-index: 9999999999;
                             }
                             .sticky {
                                 display: none;
@@ -117,13 +123,13 @@
                         @media only screen and (max-width: 480px) {
                             /* RUC */
                             html {
-                                font-size: 14px;
+                                font-size: 15px;
                             }
                             h1 {
                                 font-size: 200%;
                             }
                             h2 {
-                                font-size: 150%;
+                                font-size: 140%;
                             }
                             /* HEADER */
                             header {
@@ -142,7 +148,7 @@
                             }
                             .main-nav {
                                 padding: 0;
-                                margin-right: 2rem;
+                                margin-right: 3rem;
                             }
                             .main-nav li {
                                 padding-left: 20px;
