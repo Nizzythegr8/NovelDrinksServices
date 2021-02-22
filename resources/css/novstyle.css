@@ -103,23 +103,18 @@ header {
     text-align: center;
 }
 
-.nov-text-box .welcome {
-    text-transform: uppercase;
-    font-size: 80%;
-    color: #fff;
-    font-weight: 300;
-}
-
 .novel {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
-    color: rgb(114, 14, 28);
+    color: #ff3b55;
+    font-size: 110%;
 }
 
 .nov-text-box .drink {
-    margin-top: 5px;
-    font-size: 50%;
+    margin-top: -5px;
+    font-size: 80%;
     font-family: sans-serif;
+    color: #ff3b55;
 }
 
 
@@ -133,9 +128,9 @@ header {
 .nov-text-box a:visited {
     text-decoration: none;
     padding-bottom: 2px;
-    background-color: rgb(114, 14, 28);
+    background-color: #ff2c48;
+    border: 1px solid #ff2c48;
     border-radius: 5%;
-    border: 1px solid rgb(114, 14, 28);
     color: white;
     transition: border 0.2s, color 0.2s;
 }
@@ -146,13 +141,13 @@ header {
     padding: 10px 30px;
     font-weight: 300;
     text-decoration: none;
-    transition: background-color 0.5s, 0.5s, color 1.0s;
+    transition: background-color 0.8s, 0.8s, color 1.0s;
 }
 
 .nov-text-box .btn:hover,
 .nov-text-box .btn:active {
-    background-color: rgb(158, 25, 43);
-    border: 1px solid rgb(158, 25, 43);
+    background-color: rgb(114, 14, 28);
+    border: 1px solid rgb(114, 14, 28);
     color: white;
 }
 
@@ -316,8 +311,8 @@ header {
 }
 
 .stuff .box {
-    width: 20%;
-    margin-left: 4%;
+    width: 30%;
+    margin-left: 3%;
 }
 
 .stuff .box p {
@@ -330,8 +325,23 @@ header {
 }
 
 .box img {
-    width: 100%;
-    height: 170px;
+    width: 80%;
+    height: 200px;
+    margin-left: 10%;
+}
+
+
+/* SEEMORE LINK */
+
+.see-more-link:link,
+.see-more-link:visited {
+    color: #ff2844;
+    text-decoration: none;
+}
+
+.see-more-link:hover,
+.see-more-link:active {
+    color: #ff435c;
 }
 
 
