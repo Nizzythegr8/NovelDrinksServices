@@ -44,6 +44,9 @@
                             h2 {
                                 font-size: 150%;
                             }
+                            .header-color {
+                                height: 89vh;
+                            }
                             .nov-text-box {
                                 width: 75%;
                             }

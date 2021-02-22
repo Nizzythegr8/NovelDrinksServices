@@ -57,12 +57,11 @@ h3 {
 
 header {
     width: 100%;
-    ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    animation: animate 12s ease infinite;
+    animation: animate 12s ease-in-out infinite;
 }
 
 .header-color {
@@ -77,16 +76,16 @@ header {
 @keyframes animate {
     0%,
     100% {
-        background-image: url(img/Screenshot_2021-02-08-11-24-01.png);
+        background-image: url(img/Screenshot_2021-02-08-11-24-01-min.png);
     }
     25% {
-        background-image: url(img/Screenshot_2021-02-08-11-26-47.png);
+        background-image: url(img/Screenshot_2021-02-08-11-26-47-min.png);
     }
     50% {
-        background-image: url(img/Screenshot_2021-02-08-11-40-31.png);
+        background-image: url(img/Screenshot_2021-02-08-11-40-31-min.png);
     }
     75% {
-        background-image: url(img/Screenshot_2021-02-08-11-47-27.png);
+        background-image: url(img/Screenshot_2021-02-08-11-47-27-min.png);
     }
 }
 
