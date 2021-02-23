@@ -55,7 +55,7 @@ h3 {
 
 /* HEADER */
 
-header {
+.header-slides {
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -76,10 +76,10 @@ header {
 @keyframes animate {
     0%,
     100% {
-        background-image: url(img/Screenshot_2021-02-08-11-24-01-min.png);
+        background-image: url(img/Screenshot_2021-02-08-11-24-01-min-min\ \(1\).png);
     }
     25% {
-        background-image: url(img/Screenshot_2021-02-08-11-26-47-min.png);
+        background-image: url(img/Screenshot_2021-02-08-11-26-47-min-min.png);
     }
     50% {
         background-image: url(img/Screenshot_2021-02-08-11-40-31-min.png);
@@ -149,6 +149,18 @@ header {
     background-color: rgb(114, 14, 28);
     border: 1px solid rgb(114, 14, 28);
     color: white;
+}
+
+
+/* SECOND HEADER */
+
+.second-header {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.589)), url(https://images.unsplash.com/photo-1516788875874-c5912cae7b43?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8d2FpdGVyfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
 }
 
 
