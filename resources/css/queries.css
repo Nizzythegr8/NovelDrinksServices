@@ -45,7 +45,7 @@
                                 font-size: 150%;
                             }
                             .header-color {
-                                height: 89vh;
+                                height: 95vh;
                             }
                             .nov-text-box {
                                 width: 75%;
@@ -97,8 +97,7 @@
                             }
                             .main-nav li a:hover,
                             .main-nav li a:active {
-                                background-color: #941425;
-                                border-top: 0.5px solid #ffd3d913;
+                                border-top: 5px ridge #ffd3d913;
                             }
                             .logo {
                                 display: block;
@@ -163,8 +162,9 @@
                             }
                             /* ABOUT US */
                             .about-us {
-                                width: 70%;
-                                margin-left: 15%;
+                                width: 90%;
+                                margin-left: 5%;
+                                line-height: 1.8;
                             }
                             .stuff {
                                 display: block;
