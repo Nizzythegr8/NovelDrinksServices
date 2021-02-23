@@ -98,6 +98,7 @@
                             .main-nav li a:hover,
                             .main-nav li a:active {
                                 border-top: 5px ridge #ffd3d913;
+                                border-bottom: 5px ridge #ffd3d913;
                             }
                             .logo {
                                 display: block;
