@@ -1,7 +1,7 @@
 /*STICKT NAVIGATION*/
 $(document).ready(function() {
     /*FOR STICKY NAVI*/
-    $('.about-us').waypoint(function(direction) {
+    $('.section-about').waypoint(function(direction) {
         if (direction == "down") {
             // $('nav').addClass('.sticky');
             document.querySelector(".nav").classList.add("sticky")

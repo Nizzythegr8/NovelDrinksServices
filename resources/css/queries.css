@@ -42,10 +42,10 @@
                                 font-size: 14px;
                             }
                             h2 {
-                                font-size: 150%;
+                                font-size: 140%;
                             }
                             .header-color {
-                                height: 95vh;
+                                height: 100vh;
                             }
                             .nov-text-box {
                                 width: 75%;
@@ -112,16 +112,83 @@
                                 display: none;
                             }
                             /* ABOUT US */
-                            .stuff {
+                            .about-ft h2 {
+                                font-size: 120%;
+                            }
+                            .about-ft p {
+                                font-size: 90%;
+                            }
+                            .ft-wrapper {
                                 display: block;
                             }
-                            .stuff .box {
-                                width: 60%;
-                                margin-left: 20%;
-                                margin-bottom: 2%;
+                            .ft-wrapper img {
+                                width: 70%;
+                                height: 250px;
+                                margin-left: 15%;
+                            }
+                            .ft-text {
+                                width: 90%;
+                                margin-left: 5%;
+                                text-align: left;
+                            }
+                            .ft-text h3 {
+                                text-align: center;
+                            }
+                            /* RESERVATION */
+                            .res-today {
+                                width: 90%;
+                            }
+                            .mane {
+                                width: 90%;
+                            }
+                            .email {
+                                left: 120px;
+                                top: -37px;
+                                width: 220px;
+                                padding: 0px 20px;
+                            }
+                            .firstname {
+                                left: 120px;
+                                top: -37px;
+                                font-size: 14px;
+                            }
+                            .lastname {
+                                left: 120px;
+                                top: -23px;
+                                font-size: 14px;
+                            }
+                            .option {
+                                left: 126px;
+                                width: 250px;
+                            }
+                            .code {
+                                left: 120px;
+                                width: 223px;
                             }
                             .reservation h2 {
                                 font-size: 120%;
+                            }
+                            /* CONTACT-------------------------------------------------------------*/
+                            .reserve-box {
+                                display: block;
+                            }
+                            .r-box {
+                                width: 70%;
+                                padding: 6% 0;
+                                margin: auto;
+                            }
+                            .r-icon {
+                                font-size: 45px;
+                                height: 42px;
+                                width: 42px;
+                            }
+                            /* FOOTER */
+                            .flex-footer {
+                                display: none;
+                            }
+                            .flex-footer-1 {
+                                width: 90%;
+                                margin: auto;
                             }
                         }
                         /* Small phones (from 0 to 480px)  */
@@ -132,9 +199,12 @@
                                 font-size: 15px;
                             }
                             h1 {
-                                font-size: 200%;
+                                font-size: 150%;
                             }
                             h2 {
+                                font-size: 130%;
+                            }
+                            h4 {
                                 font-size: 140%;
                             }
                             /* HEADER */
@@ -167,33 +237,41 @@
                                 margin-left: 5%;
                                 line-height: 1.8;
                             }
-                            .stuff {
+                            .ft-wrapper {
                                 display: block;
                             }
-                            .stuff .box {
-                                width: 70%;
-                                margin-left: 15%;
-                            }
-                            .box img {
-                                width: 80%;
-                                margin-left: 10%;
-                            }
-                            /* PORTFOLIO */
-                            .portfolio {
-                                margin: 15% 0;
-                                padding: 10% 0;
-                            }
-                            .mySlides img {
-                                height: 41vh;
-                                width: 90%;
-                                margin-left: 5%;
-                                margin: 5%;
-                            }
-                            .caption-container {
-                                width: 90%;
-                                margin-left: 5%;
-                            }
                             /* RESERVATION */
+                            .res-today {
+                                width: 90%;
+                            }
+                            .mane {
+                                width: 90%;
+                            }
+                            .email {
+                                left: 120px;
+                                top: -37px;
+                                width: 220px;
+                                padding: 0px 20px;
+                            }
+                            .firstname {
+                                left: 120px;
+                                top: -37px;
+                                font-size: 14px;
+                            }
+                            .lastname {
+                                left: 120px;
+                                top: -23px;
+                                font-size: 14px;
+                            }
+                            .option {
+                                left: 126px;
+                                width: 250px;
+                            }
+                            .code {
+                                left: 120px;
+                                width: 223px;
+                            }
+                            /* CONTACT */
                             .reserve-box {
                                 display: block;
                             }
@@ -206,5 +284,13 @@
                                 font-size: 30px;
                                 height: 42px;
                                 width: 42px;
+                            }
+                            /* FOOTER */
+                            .flex-footer {
+                                display: none;
+                            }
+                            .flex-footer-1 {
+                                width: 90%;
+                                margin: auto;
                             }
                         }

@@ -1,27 +1,36 @@
 /*  rgb(114, 14, 28); */
 
+
+/* REUSABLE COMPONENTS--------------------------------------------------------------------------- */
+
 * {
     margin: 0;
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     background-color: #fff;
     color: #fff;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 17.5px;
-    line-height: 1.6;
+    line-height: 1.8em;
     word-spacing: 2;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
+
+/* HEADINGS------------------------------------------------------------------------------------ */
+
 h1 {
-    font-size: 250%;
+    font-size: 150%;
     font-weight: 400;
-    color: rgb(114, 14, 28);
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.5em;
 }
 
 h2 {
@@ -47,19 +56,31 @@ h3 {
 
 h2,
 h3 {
-    color: #ff2c48;
+    color: #555;
     text-transform: uppercase;
     text-align: center;
 }
 
+h4 {
+    font-size: 160%;
+}
 
-/* HEADER */
+h4,
+h5 {
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #ff2844;
+}
+
+
+/* HEADER---------------------------------------------------------------------------------------- */
 
 .header-slides {
     width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100vh;
     animation: animate 12s ease-in-out infinite;
 }
@@ -118,7 +139,7 @@ h3 {
 }
 
 
-/* buttons */
+/* buttons -------------------------------------------------------------------------------------------*/
 
 .nov-text-box a.btn {
     margin-top: 20%;
@@ -146,35 +167,29 @@ h3 {
 
 .nov-text-box .btn:hover,
 .nov-text-box .btn:active {
-    background-color: rgb(114, 14, 28);
-    border: 1px solid rgb(114, 14, 28);
+    background-color: rgb(197, 24, 47);
+    border: 1px solid rgb(197, 24, 47);
     color: white;
 }
 
 
-/* SECOND HEADER */
-
-.second-header {
-    width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.589)), url(https://images.unsplash.com/photo-1516788875874-c5912cae7b43?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8d2FpdGVyfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 50vh;
-}
-
-
-/* NAVIGATION */
+/* NAVIGATION------------------------------------------------------------------------------------*/
 
 .nav {
     height: auto;
     top: 0;
     left: 0;
     width: 100%;
+    background-color: rgb(255, 61, 87);
+    box-shadow: 0px 0.5px 5px #1f1f1f;
 }
 
 .nov-nav {
-    width: 100%;
+    width: 87%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .main-nav {
@@ -182,7 +197,7 @@ h3 {
     align-items: center;
     justify-content: flex-start;
     list-style: none;
-    padding: 13px 0;
+    padding: 15px 0;
     margin-right: 2rem;
 }
 
@@ -207,13 +222,6 @@ h3 {
     border-bottom: 2px solid #fff;
 }
 
-.nov-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
 .main-nav .testor:link,
 .main-nav .testor:visited {
     color: #fff;
@@ -225,7 +233,7 @@ h3 {
 }
 
 
-/* MOBILE NAV ICON */
+/* MOBILE NAV ICON------------------------------------------------------------------------------- */
 
 .mobile-icon {
     margin-top: 15px;
@@ -245,18 +253,20 @@ h3 {
 }
 
 
-/* STICKY NAV */
+/* STICKY NAV------------------------------------------------------------------------------------*/
 
 .sticky {
     position: fixed;
     top: 0%;
     left: 0%;
     width: 100%;
-    background-color: #ff3b55;
+    background-color: rgb(255, 61, 87);
+    box-shadow: 0px 0.5px 5px #747474;
     z-index: 9999;
 }
 
 .sticky .main-nav {
+    padding: 12px 0;
     margin-top: 2px;
     margin-right: 0.3rem;
 }
@@ -285,65 +295,78 @@ h3 {
 }
 
 
-/* logo */
+/* logo -----------------------------------------------------------------------------------------*/
 
 .logo {
-    height: 30px;
+    height: 40px;
     width: auto;
-    border-radius: 35%;
+    border-radius: 50%;
     z-index: 99999999;
 }
 
 
-/* section about */
+/* section about--------------------------------------------------------------------------------------*/
 
-.about-us {
+.about-ft {
     color: rgb(48, 48, 48);
-    padding: 5% 0;
+    padding: 1% 0;
     width: 70%;
+    margin-top: 1.5%;
     margin-left: 15%;
-    line-height: 1.6;
 }
 
-.about-us p {
+.about-ft p {
     text-align: center;
 }
 
 .section-about {
     padding: 5% 0;
-    background-image: linear-gradient(rgba(1, 1, 24, 0.9), rgba(36, 36, 37, 0.9));
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    color: #555;
 }
 
-.stuff {
+.ft-wrapper {
+    border-radius: 3%;
     display: flex;
-    width: 100%;
+    width: 90%;
+    margin: 5%;
+    margin-right: 0;
+    margin-top: 7%;
+    padding: 2%;
+    justify-content: space-between;
 }
 
-.stuff .box {
+.ft-wrapper img {
     width: 30%;
-    margin-left: 3%;
-}
-
-.stuff .box p {
-    text-align: center;
-}
-
-.stuff .box h3 {
-    color: #fff;
-    font-weight: 400;
-}
-
-.box img {
-    width: 80%;
     height: 200px;
-    margin-left: 10%;
+    border-radius: 4%;
+}
+
+.ft-text {
+    margin-left: 5%;
+    line-height: 1.5em;
+    font-size: 94.5%;
+    font-weight: 300;
+    width: 65%;
+    text-align: left;
+}
+
+.ft-text2 {
+    margin-right: 5%;
+    margin-left: 0;
+}
+
+.ft-text h3 {
+    color: #555;
+    font-weight: 400;
+    text-align: left;
+}
+
+.ft-fixes {
+    margin: 3.5% 0;
 }
 
 
-/* SEEMORE LINK */
+/* SEEMORE LINK----------------------------------------------------------------------------------*/
 
 .see-more-link:link,
 .see-more-link:visited {
@@ -357,12 +380,148 @@ h3 {
 }
 
 
-/* RESERVATIONS */
+/* RESERVATIONS-------------------------------------------------------------------------------------*/
 
 .reservation {
-    margin-top: 5%;
+    background-image: url(https://images.unsplash.com/photo-1580657274234-7339717f4541?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8Y2hhbXBhZ25lfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     padding: 5% 0;
-    color: #ff2c48;
+    color: #555;
+}
+
+.res-today h2 {
+    color: #fff;
+    font-size: 130%;
+    font-weight: 300;
+}
+
+.res-today {
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.mane {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 800px;
+    margin: auto;
+    padding-bottom: 3%;
+    border-radius: 0 0 15px 15px;
+}
+
+form {
+    padding: 10px;
+}
+
+
+/* #name {
+    width: 100%;
+    height: 100px;
+} */
+
+.name {
+    margin-left: 55px;
+    margin-top: 20px;
+    width: 125px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    outline: none;
+}
+
+.firstname {
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 15px;
+    font-weight: 300;
+    outline: none;
+}
+
+.lastname {
+    position: relative;
+    left: 470px;
+    top: -80px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 15px;
+    font-weight: 300;
+    outline: none;
+}
+
+.email {
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 510px;
+    padding: 0 22px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 300;
+    outline: none;
+}
+
+.code {
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 180px;
+    padding: 0 22px;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+}
+
+.option {
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 532px;
+    padding: 10px 22px;
+    border-radius: 6px;
+    font-size: 15px;
+    overflow: hidden;
+    outline: none;
+}
+
+.option option {
+    font-size: 15px;
+}
+
+button {
+    background-color: #ff435c;
+    display: block;
+    margin: auto;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    padding: 14px 60px;
+    cursor: pointer;
+    outline: none;
+    font-size: 17px;
+}
+
+
+/* Contact Page..................................................................................*/
+
+.contact-section {
+    margin: 10% 0;
+    padding-top: 5%;
+    font-size: 90%;
 }
 
 .reserve-box {
@@ -372,6 +531,7 @@ h3 {
 
 .r-box {
     width: 25%;
+    height: 300px;
     margin-left: 5%;
     border: 1px solid transparent;
     border-radius: 5%;
@@ -391,19 +551,71 @@ h3 {
     text-align: center;
     color: #ff2c48;
     display: block;
-    background-color: rgba(245, 245, 245, 0.9);
     height: 70px;
     width: 70px;
     margin: 0 auto;
     border-radius: 50%;
-    border: 1px solid #f0f0f0;
+    border: 1px solid transparent;
     transition: background-color 1.0s, border 0.5s, color 0.5s, box-shadow 0.5s;
 }
 
-.r-box i:hover {
-    background-color: #ffffffe5;
-    border: 1px solid transparent;
-    color: rgb(114, 14, 28);
-    box-shadow: 2px 4px 10px 7px #efefef;
-    cursor: pointer;
+
+/* Footer ........................................................................................*/
+
+footer {
+    background-color: #1e1e29;
+    color: #fff;
+    padding: 4% 0;
+}
+
+.flex-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.flex-footer-1 {
+    width: 30%;
+    line-height: 2em;
+    text-align: left;
+    margin-left: 1%;
+}
+
+.flex-footer {
+    width: 10%;
+    font-size: 90%;
+}
+
+.foot-links-1 {
+    display: block;
+    width: 52%;
+}
+
+.foot-links {
+    display: inline-block;
+}
+
+.flex-wrapper a:link,
+.flex-wrapper a:visited {
+    padding: 2px 0 0 0;
+    color: white;
+    text-decoration: none;
+    font-size: 95%;
+    border-bottom: 1.5px solid transparent;
+    transition: border-bottom 0.2s
+}
+
+.flex-wrapper a:hover,
+.flex-wrapper a:active {
+    border-bottom: 1.5px solid #fff;
+}
+
+.copyright {
+    display: flex;
+    font-size: 80%;
+    justify-content: space-around;
+}
+
+hr {
+    height: 1px;
 }
