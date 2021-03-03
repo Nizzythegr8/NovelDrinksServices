@@ -4,15 +4,16 @@ $(document).ready(function() {
     $('.section-about').waypoint(function(direction) {
         if (direction == "down") {
             // $('nav').addClass('.sticky');
-            document.querySelector(".nav").classList.add("sticky")
-                // $('.nav').classList.add("sticky")
+            // document.querySelector(".nav").classList.add("sticky")
+            // document.querySelector(".sticky").style.transition = "all 2s ease"
+            // $('.nav').classList.add("sticky")
         } else {
             // $('.nav').removeClass('.sticky');
-            document.querySelector(".nav").classList.remove("sticky")
+            // document.querySelector(".nav").classList.remove("sticky")
 
         }
     }, {
-        offset: '60px'
+        offset: '100px'
     }, 1500);
 
 
