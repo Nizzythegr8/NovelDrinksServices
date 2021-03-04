@@ -19,17 +19,18 @@ $(document).ready(function() {
 
     /*MOBILE NAV*/
     $('.mobile-icon').click(function() {
-        var nav = $('.main-nav li')
-        var icon = $('.special-icon i')
+        var nav = $('.main-nav li');
+        var icon = $('.mobile-icon');
+        var overlay = $('.overlay');
 
         nav.slideToggle(200);
         if (icon.hasClass('fas fa-bars')) {
-            icon.classList.add("fas fa-times");
-            icon.classList.remove('fas fa-bars');
+            icon.removeClass("fas fa-bars").addClass("fas fa-times");
+            overlay.style.display = "block";
 
         } else {
-            icon.classList.add('fas fa-bars');
-            icon.classList.remove('fas fa-times');
+            icon.removeClass("fas fa-times").addClass("fas fa-bars");
+            overlay.style.display = "none";
         }
     });
 

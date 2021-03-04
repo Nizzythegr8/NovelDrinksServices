@@ -110,6 +110,15 @@ h5 {
     background: rgba(0, 0, 0, 0.3);
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    filter: blur(20px);
+}
+
 .nov-text-box {
     padding: 2% 0;
     background-color: rgba(124, 124, 124, 0.05);
