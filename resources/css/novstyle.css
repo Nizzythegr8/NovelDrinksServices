@@ -85,6 +85,22 @@ h5 {
     animation: animate 12s ease-in-out infinite;
 }
 
+@keyframes animate {
+    0%,
+    100% {
+        background-image: url(../img/IMG_20210223_102723-min.jpg);
+    }
+    25% {
+        background-image: url(../img/IMG_20210223_102723-min.jpg);
+    }
+    50% {
+        background-image: url(../img/Screenshot_2021-02-08-11-24-01-min\ \(2\).png);
+    }
+    75% {
+        background-image: url(../img/Screenshot_2021-02-08-11-24-01-min\ \(2\).png);
+    }
+}
+
 .header-color {
     position: absolute;
     top: 0;
@@ -94,24 +110,8 @@ h5 {
     background: rgba(0, 0, 0, 0.3);
 }
 
-@keyframes animate {
-    0%,
-    100% {
-        background-image: url(img/Screenshot_2021-02-08-11-24-01-min-min\ \(1\).png);
-    }
-    25% {
-        background-image: url(img/Screenshot_2021-02-08-11-26-47-min-min.png);
-    }
-    50% {
-        background-image: url(img/Screenshot_2021-02-08-11-40-31-min.png);
-    }
-    75% {
-        background-image: url(../img/Screenshot_2021-02-23-11-00-49-min.png);
-    }
-}
-
 .nov-text-box {
-    padding: 0.9% 0;
+    padding: 2% 0;
     background-color: rgba(124, 124, 124, 0.05);
     border-radius: 1%;
     width: 47%;
@@ -162,14 +162,12 @@ h5 {
     padding: 10px 30px;
     font-weight: 300;
     text-decoration: none;
-    transition: background-color 0.8s, 0.8s, color 1.0s;
+    transition: box-shadow 0.5s;
 }
 
 .nov-text-box .btn:hover,
 .nov-text-box .btn:active {
-    background-color: rgb(197, 24, 47);
-    border: 1px solid rgb(197, 24, 47);
-    color: white;
+    box-shadow: 4px 4px 7px #202020;
 }
 
 
@@ -344,9 +342,7 @@ h5 {
 
 .ft-text {
     margin-left: 5%;
-    line-height: 1.5em;
     font-size: 94.5%;
-    font-weight: 300;
     width: 65%;
     text-align: left;
 }
@@ -600,7 +596,7 @@ footer {
     margin-right: 20px;
     margin-top: 20px;
     cursor: pointer;
-    transition: color 0.2s, border 0.2s;
+    transition: color 0.2s ease, border 0.2s ease-in-out;
 }
 
 .footer-social:hover {
