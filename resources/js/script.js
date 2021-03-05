@@ -30,7 +30,7 @@ $(document).ready(function() {
 
         } else {
             icon.removeClass("fas fa-times").addClass("fas fa-bars");
-            overlay.style.display = "none";
+            overlay.style.display = "contents";
         }
     });
 

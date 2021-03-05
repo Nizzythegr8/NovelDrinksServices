@@ -117,6 +117,7 @@ h5 {
     width: 100%;
     height: 100vh;
     filter: blur(20px);
+    display: contents;
 }
 
 .nov-text-box {
@@ -646,4 +647,123 @@ footer {
 
 hr {
     height: 1px;
+}
+
+
+/* SECOND PAGE.......................................................................................................................................................................................................................................................................................................................................................... */
+
+
+/* HEADER ...........................................................................*/
+
+.novel-info {
+    display: flex;
+    justify-content: space-around;
+    color: #555;
+    font-size: 110%;
+    padding-top: 100px;
+    margin-bottom: 17%;
+}
+
+.novel-info img {
+    height: 300px;
+    width: 400px;
+    /* border-radius: 50%; */
+}
+
+.nov-info-text {
+    width: 50%;
+    margin-left: 2%;
+}
+
+.nov-info-text h4 {
+    font-size: 150%;
+    margin-bottom: 10px;
+}
+
+
+/* SECTIONS................................................................................... */
+
+.training {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    /* border-radius: 4%; */
+    margin: 10% auto;
+    color: #4d4d4d;
+}
+
+.training h3 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 150%;
+    margin: auto;
+    padding-top: 10%;
+}
+
+.tr-1 {
+    margin: 3% auto;
+    padding-top: 5%;
+    background-image: linear-gradient(#000000b3, #000000b3), url(https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxNzA4Njc5fHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60);
+}
+
+.tr-2 {
+    background-image: linear-gradient(#000000b3, #191c308c), url(https://images.unsplash.com/photo-1522997169209-1629f3f89fdf?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnwxNzA4Njc5fHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60);
+}
+
+.tr-3 {
+    background-image: linear-gradient(#000000c5, #363310a4), url(/resources/img/IMG_20210223_102723-min.jpg);
+}
+
+
+/* TR TEXT */
+
+.tr-text {
+    color: #555555;
+    font-size: 110%;
+    width: 75%;
+    margin: auto;
+    /* text-align: center; */
+    line-height: 2em;
+}
+
+.tr-list {
+    text-align: left;
+    margin: 2% 0;
+}
+
+.tr-list li {
+    list-style: none;
+    margin-bottom: 10px;
+    color: #ff435c;
+}
+
+.tr-icon {
+    margin-right: 5px;
+}
+
+
+/* TR TEXT 2 */
+
+.tr-text2 {
+    font-size: 110%;
+    width: 75%;
+    margin: auto;
+    margin-top: -3%;
+    line-height: 2em;
+}
+
+
+/* TR text 3 */
+
+.tr-text3 {
+    width: 75%;
+    margin: auto;
+    margin-top: -8%;
+    margin-bottom: 3%;
+    padding-bottom: 10%;
+    font-size: 120%;
+    line-height: 2em;
 }
