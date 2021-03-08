@@ -14,7 +14,7 @@ body {
     color: #fff;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
-    font-size: 17.5px;
+    font-size: 16.8px;
     line-height: 1.8em;
     word-spacing: 2;
     text-rendering: optimizeLegibility;
@@ -397,12 +397,13 @@ h5 {
     background-attachment: fixed;
     padding: 5% 0;
     color: #555;
+    margin: 6% 0;
 }
 
-.res-today h2 {
+.res-today h3 {
     color: #fff;
     font-size: 130%;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .res-today {
@@ -410,17 +411,16 @@ h5 {
     background-color: rgba(0, 0, 0, 0.8);
     margin: auto;
     color: #fff;
-    padding: 10px 0;
+    border-bottom: 0.5px solid #2e2e2e1c;
+    padding: 15px 0;
     text-align: center;
-    border-radius: 15px 15px 0 0;
 }
 
 .mane {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
     width: 800px;
     margin: auto;
-    padding-bottom: 3%;
-    border-radius: 0 0 15px 15px;
+    padding-bottom: 5%;
 }
 
 form {
@@ -434,7 +434,7 @@ form {
 } */
 
 .name {
-    margin-left: 55px;
+    margin-left: 65px;
     margin-top: 20px;
     width: 125px;
     color: #fff;
@@ -443,13 +443,17 @@ form {
     outline: none;
 }
 
+.namely {
+    position: relative;
+    top: 42px;
+}
+
 .firstname {
     position: relative;
     left: 200px;
-    top: -37px;
+    top: 8px;
     line-height: 40px;
-    border-radius: 6px;
-    padding: 0 22px;
+    padding: 3px 22px;
     font-size: 15px;
     font-weight: 300;
     outline: none;
@@ -458,10 +462,9 @@ form {
 .lastname {
     position: relative;
     left: 470px;
-    top: -80px;
+    top: -42px;
     line-height: 40px;
-    border-radius: 6px;
-    padding: 0 22px;
+    padding: 3px 22px;
     font-size: 15px;
     font-weight: 300;
     outline: none;
@@ -473,8 +476,7 @@ form {
     top: -37px;
     line-height: 40px;
     width: 510px;
-    padding: 0 22px;
-    border-radius: 6px;
+    padding: 3px 22px;
     font-size: 15px;
     font-weight: 300;
     outline: none;
@@ -485,9 +487,8 @@ form {
     left: 200px;
     top: -37px;
     line-height: 40px;
-    width: 180px;
-    padding: 0 22px;
-    border-radius: 6px;
+    width: 510px;
+    padding: 3px 22px;
     font-size: 15px;
     outline: none;
 }
@@ -497,9 +498,8 @@ form {
     left: 200px;
     top: -37px;
     line-height: 40px;
-    width: 532px;
-    padding: 10px 22px;
-    border-radius: 6px;
+    width: 510px;
+    padding: 15px 22px;
     font-size: 15px;
     overflow: hidden;
     outline: none;
@@ -509,17 +509,33 @@ form {
     font-size: 15px;
 }
 
+textarea {
+    position: relative;
+    resize: none;
+    left: 200px;
+    top: -37px;
+    outline: none;
+    font-size: 100%;
+    font-weight: 300;
+    color: #222222;
+}
+
 button {
-    background-color: #ff435c;
+    background-color: #ff435cee;
     display: block;
     margin: auto;
     color: #fff;
     border: 2px solid transparent;
-    border-radius: 12px;
-    padding: 14px 60px;
+    border-radius: 5%;
+    padding: 14px 80px;
     cursor: pointer;
     outline: none;
     font-size: 17px;
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    background-color: #fd1d3b;
 }
 
 
@@ -534,12 +550,13 @@ button {
 .reserve-box {
     display: flex;
     width: 100%;
+    justify-content: space-evenly;
 }
 
 .r-box {
     width: 25%;
     height: 300px;
-    margin-left: 5%;
+    text-align: center;
     border: 1px solid transparent;
     border-radius: 5%;
     box-shadow: 5px 5px 5px 2px #efefef;
@@ -550,6 +567,12 @@ button {
 .r-box p {
     text-align: center;
     color: #555555;
+}
+
+.r-box li {
+    list-style: none;
+    text-align: center;
+    margin-top: 5px;
 }
 
 .r-icon {
@@ -607,6 +630,12 @@ footer {
     margin-top: 20px;
     cursor: pointer;
     transition: color 0.2s ease, border 0.2s ease-in-out;
+}
+
+.soc-links-foot a:link {
+    padding: 0;
+    border: 0;
+    text-decoration: none;
 }
 
 .footer-social:hover {
