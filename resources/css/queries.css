@@ -1,358 +1,364 @@
-                            /* Big tablet to 1200px */
-                            
-                            @media only screen and (max-width: 1200px) {
-                                /* PORTFOLIO */
-                            }
-                            /* Small tablets to big tablets (from 768px to 1023px) */
-                            
-                            @media only screen and (max-width: 1023px) {
-                                /* RUC */
-                                html {
-                                    font-size: 16px;
-                                }
-                            }
-                            /* Small phones to small tablets (from 481px to 767px) */
-                            
-                            @media only screen and (max-width: 767px) {
-                                /* RUC */
-                                html {
-                                    font-size: 14px;
-                                }
-                                h2 {
-                                    font-size: 140%;
-                                }
-                                .header-color {
-                                    height: 100vh;
-                                    background: rgba(0, 0, 0, 0.2);
-                                }
-                                .nov-text-box {
-                                    width: 75%;
-                                }
-                                .nov-text-box .welcome {
-                                    font-weight: 300;
-                                }
-                                /* MOBILE NAV */
-                                .nov-nav {
-                                    display: flex;
-                                    justify-content: space-between;
-                                    position: relative;
-                                    padding: 0.1% 0;
-                                    width: 100%;
-                                    background-color: #ff3b55;
-                                    z-index: 99999999999;
-                                }
-                                .mobile-icon {
-                                    display: flex !important;
-                                    margin-left: 20px;
-                                    top: 0;
-                                    left: 0;
-                                }
-                                .link-icon {
-                                    display: inline-block !important;
-                                }
-                                .main-nav {
-                                    display: block;
-                                    justify-content: flex-start;
-                                    padding: 2px 0;
-                                    width: 100%;
-                                    background-color: #ff3b55;
-                                    z-index: 99999999999;
-                                    margin-right: 62px;
-                                }
-                                .main-nav li {
-                                    display: none;
-                                    margin-top: 1px;
-                                    padding-left: 20px;
-                                    margin-left: 0;
-                                    width: 100%;
-                                    border-top: 0.2px solid #ffd3d902;
-                                }
-                                .main-nav li a:link,
-                                .main-nav li a:visited {
-                                    display: block;
-                                    border: 0;
-                                    padding: 10px 0;
-                                    font-size: 70%;
-                                }
-                                .main-nav li a:hover,
-                                .main-nav li a:active {
-                                    border-top: 5px ridge #ffd3d913;
-                                    border-bottom: 5px ridge #ffd3d913;
-                                }
-                                .logo {
-                                    display: block;
-                                    position: absolute;
-                                    top: 15px;
-                                    right: 10px;
-                                    z-index: 9999999999;
-                                }
-                                .sticky {
-                                    display: none;
-                                }
-                                /* ABOUT US */
-                                .about-ft h2 {
-                                    font-size: 120%;
-                                }
-                                .about-ft p {
-                                    font-size: 90%;
-                                }
-                                .ft-wrapper {
-                                    display: block;
-                                }
-                                .ft-wrapper img {
-                                    width: 70%;
-                                    height: 250px;
-                                    margin-left: 15%;
-                                }
-                                .ft-text {
-                                    width: 90%;
-                                    margin-left: 5%;
-                                    text-align: left;
-                                }
-                                .ft-text h3 {
-                                    text-align: center;
-                                }
-                                /* RESERVATION */
-                                .res-today {
-                                    width: 90%;
-                                }
-                                .mane {
-                                    width: 90%;
-                                }
-                                .email {
-                                    left: 120px;
-                                    top: -37px;
-                                    width: 220px;
-                                    padding: 0px 20px;
-                                }
-                                .firstname {
-                                    left: 120px;
-                                    top: -37px;
-                                    font-size: 14px;
-                                }
-                                .lastname {
-                                    left: 120px;
-                                    top: -23px;
-                                    font-size: 14px;
-                                }
-                                .option {
-                                    left: 126px;
-                                    width: 250px;
-                                }
-                                .code {
-                                    left: 120px;
-                                    width: 223px;
-                                }
-                                .reservation h2 {
-                                    font-size: 120%;
-                                }
-                                /* CONTACT-------------------------------------------------------------*/
-                                .reserve-box {
-                                    display: block;
-                                }
-                                .r-box {
-                                    width: 70%;
-                                    padding: 6% 0;
-                                    margin: auto;
-                                }
-                                .r-icon {
-                                    font-size: 45px;
-                                    height: 42px;
-                                    width: 42px;
-                                }
-                                /* FOOTER */
-                                .flex-footer {
-                                    display: none;
-                                }
-                                .flex-footer-1 {
-                                    width: 90%;
-                                    margin: auto;
-                                }
-                                .footer-social {
-                                    width: 55px;
-                                    height: 55px;
-                                }
-                            }
-                            /* Small phones (from 0 to 480px)  */
-                            
-                            @media only screen and (max-width: 480px) {
-                                /* RUC */
-                                html {
-                                    font-size: 15px;
-                                }
-                                h1 {
-                                    font-size: 130%;
-                                }
-                                h2 {
-                                    font-size: 130%;
-                                }
-                                h4 {
-                                    font-size: 140%;
-                                }
-                                /* HEADER */
-                                header {
-                                    height: 90vh;
-                                }
-                                .nov-text-box {
-                                    padding: 12.2% 0;
-                                    width: 75%;
-                                }
-                                .nov-text-box .welcome {
-                                    font-weight: 300;
-                                }
-                                /* NAV */
-                                .logo {
-                                    height: 30px;
-                                }
-                                .main-nav {
-                                    padding: 0;
-                                    margin-right: 3rem;
-                                }
-                                .main-nav li {
-                                    padding-left: 20px;
-                                    font-size: 90%;
-                                    font-weight: 400;
-                                }
-                                .mobile-icon {
-                                    font-size: 140%;
-                                }
-                                /* HEADER */
-                                .nov-text-box .btn:link {
-                                    padding: 9px 20px;
-                                    font-size: 90%;
-                                }
-                                /* ABOUT US */
-                                .about-us {
-                                    width: 90%;
-                                    margin-left: 5%;
-                                    line-height: 1.8;
-                                }
-                                .about-ft {
-                                    width: 90%;
-                                    margin-left: 5%;
-                                }
-                                .about-ft h2 {
-                                    font-size: 110%;
-                                }
-                                .about-ft p {
-                                    font-size: 100%;
-                                }
-                                .ft-wrapper {
-                                    display: block;
-                                }
-                                .ft-wrapper img {
-                                    display: none;
-                                }
-                                .ft-text {
-                                    display: block;
-                                }
-                                /* RESERVATION */
-                                .res-today {
-                                    display: none;
-                                }
-                                .mane {
-                                    width: 100%;
-                                    height: 100vh;
-                                    border-radius: 15px;
-                                }
-                                .name {
-                                    margin: 30px 0 0 10px;
-                                }
-                                form {
-                                    margin-left: 5%;
-                                }
-                                input {
-                                    margin-bottom: 5%;
-                                }
-                                .firstname,
-                                .lastname,
-                                .email {
-                                    left: 23%;
-                                    top: 25%;
-                                    font-size: 14px;
-                                }
-                                .email {
-                                    width: 220px;
-                                    padding: 0px 20px;
-                                }
-                                .code,
-                                .option {
-                                    left: 23%;
-                                    top: 25%;
-                                    width: 220px;
-                                }
-                                button {
-                                    margin-top: 10%;
-                                    padding: 9px 30px;
-                                }
-                                /* CONTACT */
-                                .contact-section {
-                                    margin-top: 30%;
-                                }
-                                .reserve-box {
-                                    display: block;
-                                }
-                                .r-box {
-                                    width: 80%;
-                                    padding: 6% 0;
-                                    margin: 10%;
-                                }
-                                .r-icon {
-                                    font-size: 30px;
-                                    height: 42px;
-                                    width: 42px;
-                                }
-                                /* FOOTER */
-                                .flex-footer {
-                                    display: none;
-                                }
-                                .flex-footer-1 {
-                                    width: 90%;
-                                    margin: auto;
-                                    font-size: 90%;
-                                }
-                                .footer-social {
-                                    width: 40px;
-                                    height: 40px;
-                                    font-size: 20px;
-                                }
-                                .copyright {
-                                    display: block;
-                                    font-size: 60%;
-                                }
-                                /* ABOUT US............... */
-                                header {
-                                    height: 120vh;
-                                    width: 90%;
-                                }
-                                .novel-info {
-                                    display: block;
-                                }
-                                .nov-info-text {
-                                    width: 100%;
-                                    margin-left: 5%;
-                                    text-align: left;
-                                }
-                                .nov-info-text h4 {
-                                    text-align: center;
-                                }
-                                .novel-info img {
-                                    display: block;
-                                    width: 360px;
-                                    height: 276px;
-                                    margin: 6% 0;
-                                    margin-left: 10%;
-                                }
-                                .h2 {
-                                    display: none;
-                                }
-                                .tr-text,
-                                .tr-text2,
-                                .tr-text3 {
-                                    width: 90%;
-                                    margin: auto;
-                                }
-                                .training {
-                                    height: 20vh;
-                                }
-                            }
+                                    /* Big tablet to 1200px */
+                                
+                                @media only screen and (max-width: 1200px) {
+                                    /* PORTFOLIO */
+                                }
+                                /* Small tablets to big tablets (from 768px to 1023px) */
+                                
+                                @media only screen and (max-width: 1023px) {
+                                    /* RUC */
+                                    html {
+                                        font-size: 16px;
+                                    }
+                                }
+                                /* Small phones to small tablets (from 481px to 767px) */
+                                
+                                @media only screen and (max-width: 767px) {
+                                    /* RUC */
+                                    html {
+                                        font-size: 14px;
+                                    }
+                                    h2 {
+                                        font-size: 140%;
+                                    }
+                                    .header-color {
+                                        height: 100vh;
+                                        background: rgba(0, 0, 0, 0.2);
+                                    }
+                                    .nov-text-box {
+                                        width: 75%;
+                                    }
+                                    .nov-text-box .welcome {
+                                        font-weight: 300;
+                                    }
+                                    /* MOBILE NAV */
+                                    .nov-nav {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        position: relative;
+                                        padding: 0.1% 0;
+                                        width: 100%;
+                                        background-color: #ff3b55;
+                                        z-index: 99999999999;
+                                    }
+                                    .mobile-icon {
+                                        display: flex !important;
+                                        margin-left: 20px;
+                                        top: 0;
+                                        left: 0;
+                                    }
+                                    .link-icon {
+                                        display: inline-block !important;
+                                    }
+                                    .main-nav {
+                                        display: block;
+                                        justify-content: flex-start;
+                                        padding: 2px 0;
+                                        width: 100%;
+                                        background-color: #ff3b55;
+                                        z-index: 99999999999;
+                                        margin-right: 62px;
+                                    }
+                                    .main-nav li {
+                                        display: none;
+                                        margin-top: 1px;
+                                        padding-left: 20px;
+                                        margin-left: 0;
+                                        width: 100%;
+                                        border-top: 0.2px solid #ffd3d902;
+                                    }
+                                    .main-nav li a:link,
+                                    .main-nav li a:visited {
+                                        display: block;
+                                        border: 0;
+                                        padding: 10px 0;
+                                        font-size: 70%;
+                                    }
+                                    .main-nav li a:hover,
+                                    .main-nav li a:active {
+                                        border-top: 5px ridge #ffd3d913;
+                                        border-bottom: 5px ridge #ffd3d913;
+                                    }
+                                    .logo {
+                                        display: block;
+                                        position: absolute;
+                                        top: 15px;
+                                        right: 10px;
+                                        z-index: 9999999999;
+                                    }
+                                    .sticky {
+                                        display: none;
+                                    }
+                                    /* ABOUT US */
+                                    .about-ft h2 {
+                                        font-size: 120%;
+                                    }
+                                    .about-ft p {
+                                        font-size: 90%;
+                                    }
+                                    .ft-wrapper {
+                                        display: block;
+                                    }
+                                    .ft-wrapper img {
+                                        width: 70%;
+                                        height: 250px;
+                                        margin-left: 15%;
+                                    }
+                                    .ft-text {
+                                        width: 90%;
+                                        margin-left: 5%;
+                                        text-align: left;
+                                    }
+                                    .ft-text h3 {
+                                        text-align: center;
+                                    }
+                                    /* RESERVATION */
+                                    .res-today {
+                                        width: 90%;
+                                    }
+                                    .mane {
+                                        width: 90%;
+                                    }
+                                    .email {
+                                        left: 120px;
+                                        top: -37px;
+                                        width: 220px;
+                                        padding: 0px 20px;
+                                    }
+                                    .firstname {
+                                        left: 120px;
+                                        top: -37px;
+                                        font-size: 14px;
+                                    }
+                                    .lastname {
+                                        left: 120px;
+                                        top: -23px;
+                                        font-size: 14px;
+                                    }
+                                    .option {
+                                        left: 126px;
+                                        width: 250px;
+                                    }
+                                    .code {
+                                        left: 120px;
+                                        width: 223px;
+                                    }
+                                    .reservation h2 {
+                                        font-size: 120%;
+                                    }
+                                    /* CONTACT-------------------------------------------------------------*/
+                                    .reserve-box {
+                                        display: block;
+                                    }
+                                    .r-box {
+                                        width: 70%;
+                                        padding: 6% 0;
+                                        margin: auto;
+                                    }
+                                    .r-icon {
+                                        font-size: 45px;
+                                        height: 42px;
+                                        width: 42px;
+                                    }
+                                    /* FOOTER */
+                                    .flex-footer {
+                                        display: none;
+                                    }
+                                    .flex-footer-1 {
+                                        width: 90%;
+                                        margin: auto;
+                                    }
+                                    .footer-social {
+                                        width: 55px;
+                                        height: 55px;
+                                    }
+                                }
+                                /* Small phones (from 0 to 480px)  */
+                                
+                                @media only screen and (max-width: 480px) {
+                                    /* RUC */
+                                    html {
+                                        font-size: 15px;
+                                    }
+                                    h1 {
+                                        font-size: 130%;
+                                    }
+                                    h2 {
+                                        font-size: 130%;
+                                    }
+                                    h4 {
+                                        font-size: 140%;
+                                    }
+                                    /* HEADER */
+                                    header {
+                                        height: 90vh;
+                                    }
+                                    .nov-text-box {
+                                        padding: 12.2% 0;
+                                        width: 75%;
+                                    }
+                                    .nov-text-box .welcome {
+                                        font-weight: 300;
+                                    }
+                                    /* NAV */
+                                    .logo {
+                                        height: 30px;
+                                    }
+                                    .main-nav {
+                                        padding: 0;
+                                        margin-right: 3rem;
+                                    }
+                                    .main-nav li {
+                                        padding-left: 20px;
+                                        font-size: 90%;
+                                        font-weight: 400;
+                                    }
+                                    .mobile-icon {
+                                        font-size: 140%;
+                                    }
+                                    /* HEADER */
+                                    .nov-text-box .btn:link {
+                                        padding: 9px 20px;
+                                        font-size: 90%;
+                                    }
+                                    /* ABOUT US */
+                                    .about-us {
+                                        width: 90%;
+                                        margin-left: 5%;
+                                        line-height: 1.8;
+                                    }
+                                    .about-ft {
+                                        width: 90%;
+                                        margin-left: 5%;
+                                    }
+                                    .about-ft h2 {
+                                        font-size: 110%;
+                                    }
+                                    .about-ft p {
+                                        font-size: 100%;
+                                    }
+                                    .ft-wrapper {
+                                        display: block;
+                                    }
+                                    .ft-wrapper img {
+                                        display: none;
+                                    }
+                                    .ft-text {
+                                        display: block;
+                                    }
+                                    /* RESERVATION */
+                                    .res-today {
+                                        display: none;
+                                    }
+                                    .mane {
+                                        width: 100%;
+                                        height: 100vh;
+                                        border-radius: 15px;
+                                    }
+                                    .name {
+                                        margin: 30px 0 0 10px;
+                                    }
+                                    form {
+                                        margin-left: 5%;
+                                    }
+                                    input {
+                                        margin-bottom: 5%;
+                                    }
+                                    .firstname,
+                                    .lastname,
+                                    .email {
+                                        left: 23%;
+                                        top: 25%;
+                                        font-size: 14px;
+                                    }
+                                    .email {
+                                        width: 220px;
+                                        padding: 0px 20px;
+                                    }
+                                    .code,
+                                    .option {
+                                        left: 23%;
+                                        top: 25%;
+                                        width: 220px;
+                                    }
+                                    textarea {
+                                        position: relative;
+                                        resize: none;
+                                        left: -9%;
+                                        top: 16px
+                                    }
+                                    button {
+                                        margin-top: 10%;
+                                        padding: 9px 30px;
+                                    }
+                                    /* CONTACT */
+                                    .contact-section {
+                                        margin-top: 30%;
+                                    }
+                                    .reserve-box {
+                                        display: block;
+                                    }
+                                    .r-box {
+                                        width: 80%;
+                                        padding: 6% 0;
+                                        margin: 10%;
+                                    }
+                                    .r-icon {
+                                        font-size: 30px;
+                                        height: 42px;
+                                        width: 42px;
+                                    }
+                                    /* FOOTER */
+                                    .flex-footer {
+                                        display: none;
+                                    }
+                                    .flex-footer-1 {
+                                        width: 90%;
+                                        margin: auto;
+                                        font-size: 90%;
+                                    }
+                                    .footer-social {
+                                        width: 40px;
+                                        height: 40px;
+                                        font-size: 20px;
+                                    }
+                                    .copyright {
+                                        display: block;
+                                        font-size: 60%;
+                                    }
+                                    /* ABOUT US............... */
+                                    header {
+                                        height: 120vh;
+                                        width: 90%;
+                                    }
+                                    .novel-info {
+                                        display: block;
+                                    }
+                                    .nov-info-text {
+                                        width: 100%;
+                                        margin-left: 5%;
+                                        text-align: left;
+                                    }
+                                    .nov-info-text h4 {
+                                        text-align: center;
+                                    }
+                                    .novel-info img {
+                                        display: block;
+                                        width: 360px;
+                                        height: 276px;
+                                        margin: 6% 0;
+                                        margin-left: 10%;
+                                    }
+                                    .h2 {
+                                        display: none;
+                                    }
+                                    .tr-text,
+                                    .tr-text2,
+                                    .tr-text3 {
+                                        width: 90%;
+                                        margin: auto;
+                                    }
+                                    .training {
+                                        background-attachment: unset;
+                                        height: 20vh;
+                                    }
