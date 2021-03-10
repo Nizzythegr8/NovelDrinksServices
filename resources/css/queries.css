@@ -343,7 +343,7 @@
                                             text-align: center;
                                         }
                                         .novel-info img {
-                                            display: block;
+                                            display: none;
                                             width: 100%;
                                             height: 276px;
                                             margin: 10% 0;

@@ -687,7 +687,7 @@ hr {
 .novel-info {
     display: flex;
     justify-content: space-around;
-    color: #555;
+    color: #444;
     font-size: 110%;
     padding-top: 100px;
     margin-bottom: 17%;
@@ -697,11 +697,13 @@ hr {
     height: 300px;
     width: 400px;
     /* border-radius: 50%; */
+    box-shadow: 5px 10px 6px 2px #e6e6e6;
 }
 
 .nov-info-text {
     width: 50%;
     margin-left: 2%;
+    font-size: 90%;
 }
 
 .nov-info-text h4 {
@@ -743,15 +745,15 @@ hr {
 }
 
 .tr-3 {
-    background-image: linear-gradient(#000000c5, #363310a4), url(/resources/img/IMG_20210223_102723-min.jpg);
+    background-image: linear-gradient(#000000de, #3633108e), url(/resources/img/IMG_20210223_102723-min.jpg);
 }
 
 
 /* TR TEXT */
 
 .tr-text {
-    color: #555555;
-    font-size: 110%;
+    color: #444;
+    font-size: 100%;
     width: 75%;
     margin: auto;
     /* text-align: center; */
@@ -777,7 +779,7 @@ hr {
 /* TR TEXT 2 */
 
 .tr-text2 {
-    font-size: 110%;
+    font-size: 100%;
     width: 75%;
     margin: auto;
     margin-top: -3%;
@@ -793,6 +795,6 @@ hr {
     margin-top: -8%;
     margin-bottom: 3%;
     padding-bottom: 10%;
-    font-size: 120%;
+    font-size: 100%;
     line-height: 2em;
 }
