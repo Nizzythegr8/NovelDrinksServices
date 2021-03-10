@@ -1,4 +1,6 @@
-/*  rgb(114, 14, 28); */
+/* .fifkfkf {
+    color: rgb(114, 14, 28);
+} */
 
 
 /* REUSABLE COMPONENTS--------------------------------------------------------------------------- */
@@ -69,7 +71,7 @@ h4,
 h5 {
     font-weight: bold;
     text-transform: capitalize;
-    color: #ff2844;
+    color: #b8142a;
 }
 
 
@@ -82,7 +84,7 @@ h5 {
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
-    animation: animate 12s ease-in-out infinite;
+    animation: animate 16s ease-in-out infinite;
 }
 
 @keyframes animate {
@@ -186,7 +188,7 @@ h5 {
 .nav {
     height: auto;
     width: 100%;
-    background-color: rgb(255, 61, 87);
+    background-color: #9e1023;
     box-shadow: 0px 0.5px 5px #1f1f1f;
     position: fixed;
     top: 0;
@@ -347,7 +349,7 @@ h5 {
 .ft-wrapper img {
     width: 30%;
     height: 200px;
-    border-radius: 4%;
+    border-radius: 1%;
 }
 
 .ft-text {
@@ -407,7 +409,7 @@ h5 {
 }
 
 .res-today {
-    width: 800px;
+    width: 90%;
     background-color: rgba(0, 0, 0, 0.8);
     margin: auto;
     color: #fff;
@@ -418,7 +420,7 @@ h5 {
 
 .mane {
     background-color: rgba(0, 0, 0, 0.8);
-    width: 800px;
+    width: 90%;
     margin: auto;
     padding-bottom: 5%;
 }
@@ -511,7 +513,7 @@ form {
 
 textarea {
     position: relative;
-    resize: none;
+    resize: vertical;
     left: 200px;
     top: -37px;
     outline: none;
@@ -521,7 +523,7 @@ textarea {
 }
 
 button {
-    background-color: #ff435cee;
+    background-color: #c2162d;
     display: block;
     margin: auto;
     color: #fff;
@@ -535,7 +537,7 @@ button {
 }
 
 button:hover {
-    background-color: #fd1d3b;
+    background-color: #b8142a;
 }
 
 
@@ -598,6 +600,9 @@ footer {
     padding: 4% 0;
 }
 
+
+/* FLEX WRAPPER */
+
 .flex-wrapper {
     display: flex;
     width: 100%;
@@ -615,6 +620,9 @@ footer {
     width: 10%;
     font-size: 90%;
 }
+
+
+/* SOCIAL LINKS IN FOOTER */
 
 .footer-social {
     display: inline-block;
@@ -639,21 +647,50 @@ footer {
 }
 
 .footer-social:hover {
-    color: #ff2844;
-    border: 2px solid #ff2844;
+    color: #b8142a;
+    border: 2px solid #b8142a;
 }
+
+
+/* LINKS DIRECTING TO OTHER PAGES */
 
 .foot-links-1 {
     display: block;
-    width: 52%;
+    width: 55%;
     font-weight: bold;
 }
 
-.foot-links {
+a.foot-links:link,
+a.foot-links:visited {
     display: inline-block;
 }
 
-.flex-wrapper a:link,
+a.foot-links:link,
+a.foot-links:visited,
+a.foot-links-1:link,
+a.foot-links-1:visited {
+    padding: 2px 0 0 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 95%;
+    font-weight: 400;
+    border-bottom: 1.5px solid transparent;
+    transition: font-size 0.3s ease;
+}
+
+a.foot-links:hover,
+a.foot-links:active {
+    /* color: #fff; */
+    font-size: 110%;
+}
+
+a.foot-links-1:hover,
+a.foot-links-1:active {
+    border-bottom: 1.5px solid #fff;
+}
+
+
+/* .flex-wrapper a:link,
 .flex-wrapper a:visited {
     padding: 2px 0 0 0;
     color: white;
@@ -666,7 +703,10 @@ footer {
 .flex-wrapper a:hover,
 .flex-wrapper a:active {
     border-bottom: 1.5px solid #fff;
-}
+} */
+
+
+/* COPYRIGHTS */
 
 .copyright {
     display: flex;
