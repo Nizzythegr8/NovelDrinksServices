@@ -226,21 +226,23 @@ h5 {
     text-decoration: none;
     font-size: 80%;
     border-bottom: 2px solid transparent;
-    transition: border-bottom 0.2s
+    transition: color 0.2s
 }
 
 .main-nav li a:hover,
 .main-nav li a:active {
+    color: #d3d3d3;
+}
+
+#active,
+#active2,
+#active3 {
     border-bottom: 2px solid #fff;
 }
 
-.main-nav .testor:link,
-.main-nav .testor:visited {
-    color: #fff;
-}
-
-.main-nav .testor:hover,
-.main-nav .testor:active {
+#active:hover,
+#active2:hover,
+#active3:hover {
     color: #fff;
 }
 

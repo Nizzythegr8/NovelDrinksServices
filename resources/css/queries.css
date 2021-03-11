@@ -83,10 +83,11 @@
                                         padding: 10px 0;
                                         font-size: 70%;
                                     }
-                                    .main-nav li a:hover,
-                                    .main-nav li a:active {
-                                        border-top: 1px ridge #ffd3d913;
-                                        border-bottom: 1px ridge #ffd3d913;
+                                    #active,
+                                    #active2,
+                                    #active3 {
+                                        background-color: #b60d24;
+                                        border-bottom: 0;
                                     }
                                     .logo {
                                         display: block;
@@ -285,8 +286,8 @@
                                         font-size: 60%;
                                     }
                                     /* ABOUT US............... */
-                                    header {
-                                        height: 100vh;
+                                    #header2 {
+                                        height: 50vh;
                                         width: 100%;
                                     }
                                     .novel-info {
@@ -319,7 +320,13 @@
                                         background-attachment: unset;
                                         height: 40vh;
                                     }
+                                    /* RESERVATION */
                                     .sp-header {
                                         height: 5vh;
+                                    }
+                                    .reservation {
+                                        width: 100%;
+                                        margin: 0;
+                                        padding-bottom: 20%;
                                     }
                                 }
