@@ -161,9 +161,9 @@ h5 {
 .nov-text-box a:visited {
     text-decoration: none;
     padding-bottom: 2px;
-    background-color: #ff2c48;
-    border: 1px solid #ff2c48;
-    border-radius: 5%;
+    background-color: #9e1023;
+    border: 1px solid#9e1023;
+    border-radius: 1%;
     color: white;
     transition: border 0.2s, color 0.2s;
 }
@@ -174,12 +174,13 @@ h5 {
     padding: 10px 30px;
     font-weight: 300;
     text-decoration: none;
-    transition: box-shadow 0.5s;
+    transition: background-color 0.5s, border 0.2s;
 }
 
 .nov-text-box .btn:hover,
 .nov-text-box .btn:active {
-    box-shadow: 4px 4px 7px #202020;
+    background-color: #960518;
+    border: 1px solid #960518;
 }
 
 
@@ -688,4 +689,66 @@ hr {
     padding-bottom: 10%;
     font-size: 100%;
     line-height: 2em;
+}
+
+
+/* THIRD PAGE..................................................................................... */
+
+.reservation {
+    width: 70%;
+    margin: 10% 0 10% 15%;
+    padding: 20px;
+    padding-bottom: 50px;
+    border: 2px solid transparent;
+    box-shadow: 2px 2px 20px #e6e6e6;
+    background-color: #f3efef;
+    color: #555;
+}
+
+.form-group {
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 15%;
+    font-size: 100%;
+}
+
+label {
+    font-size: 105%;
+    font-weight: 400;
+    color: #d81d36;
+}
+
+.form-group input,
+.form-group textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    font-size: 90%;
+    border: 1px solid rgba(75, 75, 75, 0.137);
+    margin-top: 5px;
+    outline-color: #00000085;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    width: 70%;
+    margin-left: 15%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 100%;
+    border-radius: 1%;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #c0162d;
+    transition: background-color 0.3 ease;
+}
+
+button:hover {
+    background-color: #c43245;
 }
