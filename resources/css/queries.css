@@ -176,6 +176,12 @@
                                     .sp-header {
                                         height: 5vh;
                                     }
+                                    .form-group {
+                                        width: 80%;
+                                        margin-top: 20px;
+                                        margin-left: 10%;
+                                        font-size: 100%;
+                                    }
                                 }
                                 /* Small phones (from 0 to 480px)  */
                                 
@@ -222,7 +228,7 @@
                                     }
                                     /* HEADER */
                                     .nov-text-box .btn:link {
-                                        padding: 9px 20px;
+                                        padding: 10px 60px;
                                         font-size: 90%;
                                     }
                                     /* ABOUT US */
@@ -328,5 +334,11 @@
                                         width: 100%;
                                         margin: 0;
                                         padding-bottom: 20%;
+                                    }
+                                    .form-group {
+                                        width: 90%;
+                                        margin-top: 20px;
+                                        margin-left: 5%;
+                                        font-size: 100%;
                                     }
                                 }

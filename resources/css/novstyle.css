@@ -161,6 +161,7 @@ h5 {
 .nov-text-box a:visited {
     text-decoration: none;
     padding-bottom: 2px;
+    padding: 5%;
     background-color: #9e1023;
     border: 1px solid#9e1023;
     border-radius: 1%;
@@ -715,8 +716,7 @@ hr {
 }
 
 label {
-    font-size: 105%;
-    font-weight: 400;
+    font-size: 110%;
     color: #d81d36;
 }
 
@@ -728,7 +728,7 @@ select {
     font-size: 90%;
     border: 1px solid rgba(75, 75, 75, 0.137);
     margin-top: 5px;
-    outline-color: #00000085;
+    outline-color: #030303c7;
 }
 
 textarea {
